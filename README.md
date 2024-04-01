@@ -1,2 +1,3 @@
 # Minimalist Chess
- checkMate
+
+ Will fix bugs soon.
