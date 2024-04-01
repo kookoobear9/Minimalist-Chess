@@ -1,0 +1,2 @@
+# Minimalist Chess
+ checkMate
