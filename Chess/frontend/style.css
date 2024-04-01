@@ -1,0 +1,32 @@
+#chessboard {
+    width: 640px;
+    height: 640px;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(8, 1fr);
+    margin: auto;
+    margin-top: 75px;
+}
+
+.square {
+    width: 80px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.light {
+    background-color: #f0d9b5;
+}
+
+.dark {
+    background-color: #b58863;
+}
+
+.piece {
+    width: 80%;
+    height: 80%;
+    cursor: pointer; /* To indicate the piece is movable */
+    user-select: none; /* Prevents the browser from performing default drag/drop behaviors */
+}
